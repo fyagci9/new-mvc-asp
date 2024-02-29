@@ -7,7 +7,7 @@ namespace mvc_try.Models
     {
         public int MovieId { get; set; }
         [DisplayName("Başlık")]
-        [Required(ErrorMessage ="film başlığı eklemelisiniz.")]
+        [Required(ErrorMessage ="film başlığı eklemelisinizzzzz.")]
         [StringLength(50,MinimumLength =5, ErrorMessage ="film başlığı 5-10 karakter arasında olmalı")]
         public string Title { get; set; }
         [Required(ErrorMessage = "film açıklaması eklemelisiniz.")]
